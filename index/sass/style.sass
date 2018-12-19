@@ -128,7 +128,7 @@ html,body
     color:  #546E7A
     cursor: pointer
     text-decoration: none
-    font-size: 60px
+    font-size: 80px
     &:hover
       text-decoration: underline
   h1
@@ -347,7 +347,7 @@ html,body
 
   
 //晚上
-.dayText,.paper,.about_me
+.dayText,.paper,.about_me,.contact_me
   display: none
 
 //設定太陽跟月亮的共用尺寸/位置
@@ -392,7 +392,7 @@ input:checked+.scene
   //更新背景顏色
   background-position: 0 100%
   
-  .paper,.about_me
+  .paper,.about_me,.contact_me
     display: block
   
   .nightText,.name,.description
@@ -535,3 +535,26 @@ input
     font-size: 80px
     &:hover
       text-decoration: underline 
+    
+    
+    
+.sendmail
+  width: 100px
+  height: 20px
+  padding-top: 10px
+  background-color: transparent
+  border-width: 1px
+  border-style: solid
+  border-color: #282120
+  border-radius: 4px
+  text-align: center
+  color: 282120
+  transition-duration: 0.5s
+  display: block
+  position: absolute
+  right: 20px
+  top: 200px
+  cursor: pointer
+  &:hover
+    background-color: #282120
+    color: white    
