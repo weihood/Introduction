@@ -10,7 +10,7 @@ $("#sendmail").click(function(){
   $("#form").css("opacity","1") 
   $(".editorial").css("opacity","1")   
   $(".topic").css("opacity","1")     
-  $("body").css("background-color","white"); 
+  $("body").css("background-color","#2196F3"); 
   }
              ,2000);
 

@@ -12,8 +12,8 @@
   position: fixed;
   font-size: 18px;
   color: white;
-  top: 40%;
-  left: 50%;
+  top: 45%;
+  left: 55%;
   letter-spacing: 2px;
   opacity: 0;
   transition-duration: 0.5s;
@@ -402,3 +402,5 @@ svg #fish6 {
   
   
 }
+
+
