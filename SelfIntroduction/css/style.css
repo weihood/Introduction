@@ -34,6 +34,7 @@ body {
 .resume {
   display: flex;
   max-width: 950px;
+  min-width: 950px;
   border: solid 8px white;
   padding: 50px;
   box-sizing: border-box;
