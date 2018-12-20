@@ -92,9 +92,14 @@ a {
 }
 
 .btn {
+  font-size: 20px;
   border: solid 3px #FF7168;
   padding: 5px 20px;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+.btn:hover {
+  background-color: #FFA582;
+  color: #212121;
 }
 
 .fill {
