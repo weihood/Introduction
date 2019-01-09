@@ -86,6 +86,8 @@ a
   color: white
   text-decoration: none
   
+.buttons
+  position: relative
   
 .btn
   font-size: 20px
@@ -99,6 +101,35 @@ a
 .fill
   background-color: $color_pink
     
+.mouse
+  width: 25px
+  height: 25px
+  background-color: #fff
+  // background: url(pointer.svg);
+  // background-size: cover;
+  position: absolute
+  top: 0%
+  left: 80%
+  opacity: 0
+  transform: translateX(-50%)
+  animation: mouseHover 1.5s infinite
+
+  
+  @keyframes mouseHover
+    0%
+      left: 100%
+    20%
+      opacity: 1
+    80%
+      opacity: 1
+    100%
+      left: 60%
+//     80%
+//      opacity: 1
+//     100%
+//      top: 60%
+  
+  
   
 hr
   border: none
@@ -232,3 +263,6 @@ ul
   
 .buttons
   margin-top: 25px
+  
+  
+

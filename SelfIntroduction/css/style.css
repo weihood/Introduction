@@ -91,6 +91,10 @@ a {
   text-decoration: none;
 }
 
+.buttons {
+  position: relative;
+}
+
 .btn {
   font-size: 20px;
   border: solid 3px #FF7168;
@@ -106,6 +110,49 @@ a {
   background-color: #FF7168;
 }
 
+.mouse {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  background: url(../pointer.svg);
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  opacity: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-animation: mouseHover 1.5s infinite;
+          animation: mouseHover 1.5s infinite;
+}
+@-webkit-keyframes mouseHover {
+  0% {
+    left: 100%;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    left: 60%;
+  }
+}
+@keyframes mouseHover {
+  0% {
+    left: 100%;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    left: 60%;
+  }
+}
 hr {
   border: none;
   border-bottom: solid 4px #FF7168;
