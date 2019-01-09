@@ -122,8 +122,8 @@ a {
   opacity: 0;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  -webkit-animation: mouseHover 1.5s 2;
-          animation: mouseHover 1.5s 2;
+  -webkit-animation: mouseHover 1.5s 1;
+          animation: mouseHover 1.5s 1;
 }
 @-webkit-keyframes mouseHover {
   0% {
