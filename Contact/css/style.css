@@ -1,10 +1,15 @@
+.topic{
+  positon:relative;
+}
 #waterform {
   color: white;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 750px;
   -webkit-transform: translate(-40%, -72%);
           transform: translate(-40%, -72%);
+  z-index: 20;
+  margin-bottom: 0px;
 }
 
 .sendok {
@@ -90,10 +95,9 @@
 }
 
 body {
-  background-color: #323232;
   margin: 0;
-  max-height: 100vh;
-  overflow: hidden;
+/*   max-height: 100vh;
+  overflow: hidden; */
   padding: 9em 0 0 0;
 }
 
@@ -102,7 +106,8 @@ body {
   text-align: center;
   background-color: #2d55aa;
   text-align: center;
-  min-height: 75vh;
+/*   min-height: 75vh; */
+  height: 100%;
   margin: -.1em 0 0 0;
   padding: 1em;
   color: #eee;
@@ -150,7 +155,7 @@ h1 {
   margin: 0 auto;
   margin-top: 30px;
   width: 500px;
-  color: #F90;
+  color: white;
   text-align: center;
 }
 
@@ -186,7 +191,7 @@ body, html {
   }
 }
 #form {
-  height: 100%;
+  height: 120%;
   margin-top: -40px;
   background-color: #6ca3a3;
   overflow: hidden;
@@ -238,6 +243,7 @@ input[type="submit"] {
   height: 80px;
   cursor: pointer;
   margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 2.5em;
   font-family: 'Raleway', sans-serif;
   transition: background-color 0.5s;
@@ -389,6 +395,19 @@ svg #fish6 {
 }
 /*END Fish Animation*/
 
+/* @media screen and (min-width: 600px) {
+  #waterform{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translate(-40%,-115%);
+}  
+  
+  
+}
+
+
 
 @media screen and (max-width: 1080px) {
   #waterform{
@@ -396,11 +415,8 @@ svg #fish6 {
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-40%,-115%);
-            transform: translate(-40%,-115%);
+    transform: translate(-40%,-115%);
 }  
   
   
-}
-
-
+} */

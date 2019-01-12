@@ -14,13 +14,32 @@
 
 <body>
 
-  
-  <div class="sendok"> 
+    <div class="sendok"> 
   <span class="bigok">GREAT!</span><br><br>意見已經順利送達囉:)
 </div>
 
 <header class="topic">
 	<h1>Contact us</h1>
+     <div id="waterform">
+
+  <div class="formgroup" id="name-form">
+      <label for="name">Your name*</label>
+      <input type="text" id="name" name="name" />
+  </div>
+
+  <div class="formgroup" id="email-form">
+      <label for="email">Your e-mail*</label>
+      <input type="email" id="email" name="email" />
+  </div>
+
+  <div class="formgroup" id="message-form">
+      <label for="message">Your message</label>
+      <textarea id="message" name="message"></textarea>
+  </div>
+
+    <input type="submit" id="sendmail" value="Send your message!" />
+  
+</div>
 </header>
 
 <svg class="editorial"
@@ -139,26 +158,7 @@
      id="fish1" />
 </svg>
   
-<div id="waterform">
-
-  <div class="formgroup" id="name-form">
-      <label for="name">Your name*</label>
-      <input type="text" id="name" name="name" />
-  </div>
-
-  <div class="formgroup" id="email-form">
-      <label for="email">Your e-mail*</label>
-      <input type="email" id="email" name="email" />
-  </div>
-
-  <div class="formgroup" id="message-form">
-      <label for="message">Your message</label>
-      <textarea id="message" name="message"></textarea>
-  </div>
-
-    <input type="submit" id="sendmail" value="Send your message!" />
-  
-</div>
+ 
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 
